@@ -16,7 +16,7 @@ static int16_t pcm_buffer[FRAME_LEN];
 
 // buffer for averages
 static float score_history[3] = {0.0f, 0.0f, 0.0f};
-static size_t score_history_idx = 0; // counter, goes 0 to 4 and returns back!
+static size_t score_history_idx = 0; // counter, goes 0 to 2 and returns back!
 
 // boolean to determine if we are actively speaking
 static bool is_speaking = false;
